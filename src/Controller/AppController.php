@@ -14,7 +14,7 @@ class AppController extends AbstractController
      */
     public function index(string $name): Response
     {
-        dd($name);
+        dump($name);
         return $this->render('base.html.twig');
     }
 }
