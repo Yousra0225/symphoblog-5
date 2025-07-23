@@ -13,3 +13,4 @@ _Un outil qui permet de déboguer une application symphony => c’est la barre e
 | `render()` | Affiche une **vue Twig** dans une réponse HTTP.                                 | `$this->render('home.html.twig')` | Oui (onglet **Twig**)      |
 | `dump()`   | Affiche le contenu d'une variable pour le débogage sans interrompre l'exécution | `dump($variable);`                | Oui (onglet **Debug**)     |
 | `dd()`     | Fait un `dump()` **et stoppe l'exécution** immédiatement                        | `dd($variable);`                  | Non (interrompt tout)      |
+
